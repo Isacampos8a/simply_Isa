@@ -34,7 +34,7 @@
 /* Body Style*/
 
 Body {
-    background-color: #f2eee9;
+    background-color: rgb(243, 242, 220);
 }
 
 h1 {
@@ -312,12 +312,26 @@ img {
 
 /*------------WHY-------------*/
 
+.why {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 52, 2);
+    color: #f2eee9;
+}
+
 .why h1{
     font-size: 75px;
     text-align: right;
     margin-top: 100px;
     margin-right: 100px;
 
+}
+
+.why p {
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
 }
 
 
